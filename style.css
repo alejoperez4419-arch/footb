@@ -25,7 +25,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(2px);
     z-index: 0;
 }
 
@@ -33,16 +32,16 @@ body {
 .container {
     position: relative;
     z-index: 1;
-    background: rgba(10, 10, 25, 0.85);
-    border: 2px solid rgba(0, 255, 100, 0.6);
+    background: rgba(10, 15, 30, 0.88);
+    border: 2px solid rgba(0, 200, 255, 0.6);
     border-radius: 20px;
     padding: 35px 28px;
     width: 100%;
     max-width: 360px;
     text-align: center;
-    color: #ccffdd;
-    box-shadow: 0 0 25px rgba(0, 255, 80, 0.5),
-                inset 0 0 10px rgba(0, 255, 150, 0.1);
+    color: #ccfaff;
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.5),
+                inset 0 0 10px rgba(0, 255, 220, 0.1);
 }
 
 /* === LOGO === */
@@ -67,13 +66,13 @@ body {
     text-align: center;
     font-size: 1rem;
     outline: none;
-    color: #fff;
-    background: rgba(20, 40, 20, 0.8);
-    box-shadow: inset 0 0 8px rgba(0, 255, 80, 0.4);
+    color: #e7ffff;
+    background: rgba(0, 40, 60, 0.8);
+    box-shadow: inset 0 0 8px rgba(0, 200, 255, 0.4);
 }
 
 .input::placeholder {
-    color: #99cc99;
+    color: #8cd7ff;
 }
 
 .input-icon {
@@ -94,7 +93,7 @@ body {
 .btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(90deg, #7b00ff, #00ff66);
+    background: linear-gradient(90deg, #0057ff, #00ffd5);
     border: none;
     border-radius: 8px;
     color: white;
@@ -104,12 +103,12 @@ body {
     transition: 0.3s;
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 0 0 10px rgba(0, 255, 100, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 .btn:hover {
-    background: linear-gradient(90deg, #00ff66, #7b00ff);
-    box-shadow: 0 0 15px rgba(0, 255, 150, 0.8);
+    background: linear-gradient(90deg, #00ffd5, #0057ff);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
 }
 
 /* === SPINNER === */
@@ -117,7 +116,7 @@ body {
     display: none;
     margin: 15px auto 0;
     border: 4px solid rgba(255, 255, 255, 0.2);
-    border-top: 4px solid #00ff66;
+    border-top: 4px solid #00d5ff;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -148,16 +147,16 @@ body {
     padding: 6px 8px;
     border: none;
     border-radius: 8px;
-    background: rgba(40, 0, 70, 0.9);
-    color: #00ff99;
+    background: rgba(10, 0, 40, 0.9);
+    color: #00d9ff;
     cursor: pointer;
     font-size: 0.8rem;
     transition: 0.3s;
-    box-shadow: 0 0 8px rgba(0, 255, 150, 0.3);
+    box-shadow: 0 0 8px rgba(0, 200, 255, 0.3);
 }
 
 .mini-btn:hover {
-    background: rgba(70, 0, 120, 1);
+    background: rgba(20, 0, 80, 1);
     color: #fff;
 }
 
@@ -185,7 +184,7 @@ body {
 }
 
 .coins-text {
-    color: #00ff66;
+    color: #00ffd5;
 }
 
 #displayAmount {
@@ -201,6 +200,7 @@ body {
     opacity: 0.8;
     animation: fall 3s linear infinite;
     z-index: 99;
+    background: #00eaff;
 }
 
 @keyframes fall {
@@ -213,7 +213,7 @@ body {
 /* === TEXTO DE FELICITACIÓN === */
 .congratu {
     font-size: 200%;
-    color: #00ff66;
-    text-shadow: 0 0 10px #7b00ff,
-                 0 0 20px #00ff66;
+    color: #00eaff;
+    text-shadow: 0 0 10px #0057ff,
+                 0 0 20px #00eaff;
 }
